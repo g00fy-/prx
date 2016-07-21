@@ -1,0 +1,21 @@
+{
+  "name": "prx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nodemon": "^1.9.2"
+  },
+  "dependencies": {
+    "lru-cache": "^4.0.1",
+    "request": "^2.73.0"
+  }
+}
